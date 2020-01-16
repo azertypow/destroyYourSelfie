@@ -12,7 +12,7 @@
   "scripts": {
     "start:client-input": "http-server ./client-input -c-1 -p 8080",
     "start:client-result": "http-server ./client-result -c-1 -p 8081",
-    "start:node-app": "echo empty"
+    "start:node-app": "node socket-server/index.js"
   },
   "author": "",
   "license": "ISC"
