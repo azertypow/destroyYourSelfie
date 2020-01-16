@@ -1,0 +1,19 @@
+{
+  "name": "imageglictch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/index.js",
+  "dependencies": {
+    "@types/p5": "^0.9.0",
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start:client-input": "http-server ./client-input -c-1 -p 8080",
+    "start:client-result": "http-server ./client-result -c-1 -p 8081",
+    "start:node-app": "echo empty"
+  },
+  "author": "",
+  "license": "ISC"
+}
